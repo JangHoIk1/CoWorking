@@ -12,6 +12,17 @@ a {
   text-decoration-line: none;
 }
 
+.subtitle {
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* navigation 작업 */
 .nav-right {
   display: flex;
@@ -154,7 +165,7 @@ a {
 /* cowork section */
 
 #cowork-section {
-  padding: 112px 64px;
+  padding: 80px 64px;
 }
 
 .cowork-text {
@@ -217,3 +228,66 @@ a {
 }
 
 /* cowork section */
+
+/* explore section */
+#explore-section {
+  padding: 80px 64px;
+}
+.chronicles-upper {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.subtitle {
+  color: rgb(110, 110, 110);
+  padding-bottom: 20px;
+}
+
+.chronicles-title {
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.chronicles-title img {
+  position: relative;
+  top: 14px;
+}
+
+.chronicles-description {
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.explore-button {
+  width: 150px;
+  height: 45px;
+  padding: 12px 24px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 150%;
+
+  border: 1px solid rgb(29, 30, 28);
+  border-radius: 42px;
+  background: rgb(255, 255, 255);
+  margin-bottom: 80px;
+}
+
+.explore-img {
+  height: 700px;
+}
+
+/* explore section */
