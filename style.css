@@ -87,6 +87,7 @@ a {
 #main-banner-section {
   padding: 112px 64px;
 }
+
 .main-content {
   display: flex;
   flex-direction: row;
@@ -109,6 +110,12 @@ a {
   line-height: 150%;
 
   margin: 32px 0px;
+}
+
+.cowork-img {
+  background-image: url(/images/vector/Vector1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .first-content {
