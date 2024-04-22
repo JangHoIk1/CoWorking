@@ -1,0 +1,72 @@
+body {
+  max-width: 1440px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration-line: none;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-nav {
+  width: 1440px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  padding: 0px 64px 0px 64px;
+}
+.top-logo {
+  width: 118.95px;
+  height: 24px;
+
+  margin-right: 645px;
+}
+
+.nav-items {
+  width: 296px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 48px;
+}
+
+.nav-button {
+  display: flex;
+  justify-content: space-between;
+  width: 204px;
+  height: 45px;
+
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.login {
+  color: rgb(29, 30, 28);
+  width: 85px;
+  height: 45px;
+  border: 1px solid rgb(29, 30, 28);
+  border-radius: 42px;
+  background: rgb(255, 255, 255);
+}
+
+.sign-up {
+  color: rgb(255, 255, 255);
+  width: 85px;
+  height: 45px;
+  border: 1px solid rgb(29, 30, 28);
+  border-radius: 42px;
+  background: rgb(29, 30, 28);
+}
