@@ -443,6 +443,7 @@ a{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    margin: 32px 0px;
     
 }
 
@@ -452,16 +453,22 @@ a{
 }
 /* ----- postit-content -----*/
 .postit-content{
-    position: relative;
     height: 300px;
-    display: flex;
-    flex-wrap: wrap;
+}
+
+.content-row1{
+  display: flex;
+  gap: 50px;
+  margin: 32px 0px;
+}
+
+.content-row2{
+  display: flex;
+  gap: 62px;
+  justify-content: center;
 }
 .content1{
     position: relative;
-    left: 4px;
-    top: 55px;
-    bottom : 420px;
     text-align: center;
     background-color: rgb(211, 249, 133);
     width: 360px;
@@ -481,9 +488,7 @@ a{
 
 .content2{
     position: relative;
-    left: 395px;
-    top: -275px;
-    bottom: 421px;
+    top: -15px;
     text-align: center;
     background-color: rgb(241, 241, 241);
     width: 360px;
@@ -496,9 +501,7 @@ a{
 
 .content3{
     position: relative;
-    left: 781px;
-    top: -555px;
-    bottom: 363px;
+    top: 17px;
     text-align: center;
     background-color: rgb(166, 232, 246);
     width: 360px;
@@ -511,9 +514,6 @@ a{
 
 .content4{
     position: relative;
-    left: -110px;
-    top: -225px;
-    bottom: 60px;
     text-align: center;
     background-color: rgb(252, 190, 220);
     width: 360px;
@@ -526,9 +526,7 @@ a{
 
 .content5{
     position: relative;
-    left: -102px;
-    top: -202px;
-    bottom: 32px;
+    top: 17px;
     text-align: center;
     background-color: rgb(251, 200, 153);
     width: 360px;
