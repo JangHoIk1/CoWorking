@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+
   </head>
   <body>
     <!-- 헤더 네비게이션 바 -->
@@ -271,10 +273,10 @@
     </section>
 
     <!-- roadmap-section -->
+    <p class="roadmap-subtitle">Frequently Asked Questions</p>
     <section class="roadmap">
       <!-- roadmap-left --->
       <div class="roadmap-left">
-        <p class="roadmap-subtitle">Frequently Asked Questions</p>
         <div class="roadmap-title">Your Roadmap to Coworking Clarity</div>
         <div class="roadmap-content">
           Frequently asked questions ordered by popularity. Remember that if the
@@ -286,8 +288,9 @@
       <!-- roadmap-right -->
       <div class="roadmap-right">
         <div class="example">
-          <p class="question onequestion">
+          <p class="question">
             How flexible are Cowork's membership plans?
+            <img src="images/btn-image/up.png" alt="up-btn" class="up-down-btn">
           </p>
           <p class="answer">
             Frequently asked questions ordered by popularity. Remember that if
@@ -295,25 +298,32 @@
             have questions (doubts) that can be answered.
           </p>
         </div>
-        <div class="contour"></div>
+        <hr class="contour"></hr>
         <div class="question">
           What kind of events and networking opportunities does Cowork provide?
+          <img src="images/btn-image/down.png" alt="down-btn" class="up-down-btn">
         </div>
-        <div class="contour"></div>
+        <hr class="contour"></hr>
         <div class="question">
           Can I tour the Cowork space before committing to a membership?
+          <img src="images/btn-image/down.png" alt="down-btn" class="up-down-btn">
         </div>
-        <div class="contour"></div>
+        <hr class="contour"></hr>
         <div class="question">
           Is Cowork suitable for remote teams and distributed workforces?
+          <img src="images/btn-image/down.png" alt="down-btn" class="up-down-btn">
         </div>
-        <div class="contour"></div>
+        <hr class="contour"></hr>
         <div class="question">
           What measures does Cowork take for environmental sustainability?
+          <img src="images/btn-image/down.png" alt="down-btn" class="up-down-btn">
         </div>
-        <div class="contour"></div>
-        <div class="question">Still has questions?</div>
-        <div class="contour"></div>
+        <hr class="contour"></hr>
+        <div class="question">
+            Still has questions?
+            <img src="images/btn-image/down.png" alt="down-btn" class="up-down-btn">
+        </div>
+        <hr class="contour"></hr>
       </div>
     </section>
 
@@ -338,62 +348,63 @@
     </section>
     <!-- chronicles-section -->
     <section class="chronicles">
-      <p class="subtitle">COWORK CHRONICLES</p>
-
-      <div class="chronicles-title">
-        Insights, Innovation, and
-        <img src="http://placehold.it/100X20" alt="" /> Inspiration
+      
+      <div class="chronicles-upper">
+        <p class="subtitle">COWORK CHRONICLES</p>
+        <div class="chronicles-title">
+            Insights, Innovation, and
+            <img src="images/Rectangle/Rectangle 1.png" alt="" /> Inspiration
+          </div>
+    
+          <div class="chronicles-description">
+            Stay updated on the latest trends in coworking. producivity tips, and
+            success stories that define the Cowrok experience
+          </div>
       </div>
 
-      <div class="chronicles-description">
-        Stay updated on the latest trends in coworking. producivity tips, and
-        success stories that define the Cowrok experience
-      </div>
-
+      
       <div class="chronicles-items">
         <!-- chronicles-item-1 -->
         <article class="chronicels-item">
-          <div class="chronicles-thumbnail"></div>
+            <img src="images/chronicles/chronicles_image.png" alt="" class="chronicles-thumbnail">
           <div class="chronicles-t&t">
-            <span class="chronicels-title-1">Trending</span>
+            <span class="chronicels-item-title-1">Trending</span>
             <span class="chronicels-time">7 min read</span>
           </div>
           <div class="chronicles-content">
             Navigating the Future: Trends in Modern Coworking Spaces
           </div>
-          <div class="chronicles-detail">Read more ></div>
+          <div class="chronicles-detail"><a href="#">Read more &nbsp;></a></div>
         </article>
 
         <!-- chronicles-item-2 -->
         <article class="chronicels-item">
-          <div class="chronicles-thumbnail"></div>
+          <img src="images/chronicles/chronicles_image2.png" alt="" class="chronicles-thumbnail">
           <div class="chronicles-t&t">
-            <span class="chronicels-title-2">Productivity</span>
+            <span class="chronicels-item-title-2">Productivity</span>
             <span class="chronicels-time">5 min read</span>
           </div>
           <div class="chronicles-content">
             Mastering Productivity: Tips from Cowork's High Achievers
           </div>
-          <div class="chronicles-detail">Read more ></div>
+          <div class="chronicles-detail"><a href="#">Read more &nbsp;></a></div>
         </article>
 
         <!-- chronicles-item-3 -->
         <article class="chronicels-item">
-          <div class="chronicles-thumbnail"></div>
+            <img src="images/chronicles/chronicles_image3.png" alt="" class="chronicles-thumbnail">
           <div class="chronicles-t&t">
-            <span class="chronicels-title-3">Talk</span>
+            <span class="chronicels-item-title-3">Talk</span>
             <span class="chronicels-time">10 min read</span>
           </div>
           <div class="chronicles-content">
             Tech Talk: The Backbone of Cowork's Seamless Experience
           </div>
-          <div class="chronicles-detail">Read more ></div>
+          <div class="chronicles-detail"><a href="#">Read more &nbsp;></a></div>
         </article>
-
-        <!--Chronicles-Button-->
-
-        <button type="button" class="chronicles-view-btn">View All</button>
       </div>
+        <!--Chronicles-Button-->
+      <button type="button" class="chronicles-view-btn">View All</button>
     </section>
 
     <!-- footer -->
@@ -404,12 +415,15 @@
           <p class="subscribe-description-1">
             Join our newsletter to stay up to date on features and releases
           </p>
-          <input
+          <div class="email-form">
+            <input
             type="email"
-            class="footer-email"
+            class="email-input"
             placeholder="Enter your email"
           />
-          <button type="submit">subscribe</button>
+          <button type="submit" class="email-btn">subscribe</button>
+            
+          </div>
           <p class="subscribe-description-2">
             By subscribing you agree to with our Privacy and provide consent to
             receive updates from our company.
@@ -418,26 +432,26 @@
         <nav class="footer-nav">
           <ul class="explore-more">
             <li class="footer-nav-title">EXPLORE MORE</li>
-            <li>Home</li>
-            <li>About</li>
-            <li>Pricing</li>
-            <li>Blog</li>
-            <li>Events</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Events</a></li>
           </ul>
           <ul class="stay-connected">
             <li class="footer-nav-title">STAY-CONNECTED</li>
-            <li>Subscribe</li>
-            <li>Member Stories</li>
-            <li>Locations</li>
-            <li>Write for Us</li>
+            <li><a href="#">Subscribe</a></li>
+            <li><a href="#">Member Stories</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Write for Us</a></li>
           </ul>
           <ul class="follow-us">
             <li class="footer-nav-title">FOLLOW US</li>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>X</li>
-            <li>LinkedIn</li>
-            <li>Youtube</li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">X</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Youtube</a></li>
           </ul>
         </nav>
       </div>
