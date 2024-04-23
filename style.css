@@ -460,7 +460,6 @@ a{
 .content1{
     position: relative;
     left: 4px;
-    right: 864px;
     top: 55px;
     bottom : 420px;
     text-align: center;
@@ -482,8 +481,7 @@ a{
 
 .content2{
     position: relative;
-    left: 380px;
-    right: 444px;
+    left: 395px;
     top: -275px;
     bottom: 421px;
     text-align: center;
@@ -498,8 +496,7 @@ a{
 
 .content3{
     position: relative;
-    left: 761px;
-    right: 41px;
+    left: 781px;
     top: -555px;
     bottom: 363px;
     text-align: center;
@@ -514,9 +511,8 @@ a{
 
 .content4{
     position: relative;
-    left: 200px;
-    right: 694px;
-    top: -525px;
+    left: -110px;
+    top: -225px;
     bottom: 60px;
     text-align: center;
     background-color: rgb(252, 190, 220);
@@ -530,9 +526,8 @@ a{
 
 .content5{
     position: relative;
-    left: 258px;
-    right: 264px;
-    top: -532px;
+    left: -102px;
+    top: -202px;
     bottom: 32px;
     text-align: center;
     background-color: rgb(251, 200, 153);
@@ -544,10 +539,19 @@ a{
     justify-content: space-around;
 }
 /* ----- roadmap-section -----*/
-.roadmap{
+.roadmap-section{
     display: flex;
-    gap: 32px;
+    flex-direction: column;
+    justify-content: center;
     margin: 0px 64px;
+    align-items: center;
+
+}
+
+.roadmap{
+  display: flex;
+  gap: 32px;
+
 
 }
 /* ----- roadmap-left -----*/
@@ -556,16 +560,13 @@ a{
 .roadmap-left{
     display: flex;
     flex-direction: column;
-    max-width: 528px;
+    /* max-width: 628px; */
     gap: 32px;
-    
 
 }
 
 .roadmap-subtitle{
     color: rgb(110, 110, 110);
-    padding-bottom: 20px;
-    margin-left: 64px;
 }
 
 .roadmap-title{
@@ -581,7 +582,9 @@ a{
 }
 
 /*----- roadmap-right -----*/
-
+.roadmap-right{
+  padding-top: 40px;
+}
 
 .up-down-btn{
     width: 24px;
@@ -636,7 +639,6 @@ a{
 /* ----- chronicles-items -----*/
 .chronicles-items{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
@@ -712,7 +714,6 @@ footer {
     color:aliceblue;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     gap: 80px;
     padding: 38px;
@@ -725,7 +726,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
     gap: 20px;
     max-width: 400px;
 }
@@ -733,7 +733,7 @@ footer {
 .footer-logo{
     font-weight: 900;
     font-size: xx-large;
-    
+    margin-left: 0px;
 }
 
 .email-form{
@@ -769,7 +769,8 @@ footer {
 }
 
 .footer-nav-title {
-    font-weight: 90;
+    font-size: 12px;
+    font-weight: 100;
     padding-bottom: 20px;
 }
 
