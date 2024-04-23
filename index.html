@@ -4,40 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+
   </head>
   <body>
     <!-- 헤더 네비게이션 바 -->
     <nav class="top-nav">
-      <img class="top-logo" src="" alt="logo" />
-      <ul class="nav-items">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Events</a></li>
-      </ul>
+      <img class="top-logo" src="./images/main-logo.png" alt="logo" />
+      <div class="nav-right">
+        <ul class="nav-items">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Events</a></li>
+        </ul>
 
-      <div class="top-button">
-        <button class="login">Log in</button>
+        <div class="nav-button">
+          <button class="login">Log in</button>
 
-        <button class="sign-up">Sign Up</button>
+          <button class="sign-up">Sign Up</button>
+        </div>
       </div>
     </nav>
 
     <!-- 메인 홈페이지 소개(메인 배너)-->
     <section id="main-banner-section">
-      <div class="left-content">
-        <div>Elevate Your Workspace with Cowork</div>
+      <div class="main-content">
+        <div class="left-content">
+          <div class="first-content">Elevate Your Workspace with Cowork</div>
 
-        <div>
-          Welcome to Cowork - where innovation meets collaboration in the heart
-          of productivity! Unleash 🚀 your potential in our thoughtfully
-          designed coworking spaces, tailored to inspire creativity and foster
-          connections.
+          <div class="second-content">
+            Welcome to Cowork - where innovation meets collaboration in the
+            heart of productivity! Unleash 🚀 your potential in our thoughtfully
+            designed coworking spaces, tailored to inspire creativity and foster
+            connections.
+          </div>
+
+          <button>Claim Your Spot</button>
         </div>
-
-        <img class="main-img" src="http://placehold.it/640X640" alt="banner" />
+        <img class="main-img" src="/images/main-image.png" alt="banner" />
       </div>
     </section>
 
@@ -49,19 +56,19 @@
 
       <ul class="company-img">
         <li>
-          <img src="" alt="" />
+          <img src="/images/logo-image/Logo (1).png" alt="" />
         </li>
         <li>
-          <img src="" alt="" />
+          <img src="/images/logo-image/Logo (2).png" alt="" />
         </li>
         <li>
-          <img src="" alt="" />
+          <img src="/images/logo-image/Logo (3).png" alt="" />
         </li>
         <li>
-          <img src="" alt="" />
+          <img src="/images/logo-image/Logo (4).png" alt="" />
         </li>
         <li>
-          <img src="" alt="" />
+          <img src="/images/logo-image/Logo (5).png" alt="" />
         </li>
       </ul>
     </section>
@@ -69,70 +76,68 @@
     <!-- Cowork 선택 섹션 -->
     <section id="cowork-section">
       <div class="cowork-text">
-        Why Choose
-        <img src="http://placehold.it/100X100" alt="hello" />
-        Cowork?
+        <p>Why Choose</p>
+        <img src="/images/Rectangle/Rectangle 1.png" alt="hello" />
+        <p>Cowork?</p>
       </div>
 
       <div class="cowork-row">
-        <div>
-          <img src="http://placehold.it/100X100" alt="" />
+        <div class="first-row">
+          <img src="/images/vector/PlanetIcon.png" alt="" />
 
           <div>Flexible Spaces</div>
 
-          <div>
+          <p>
             Whether you're a solopreneur, startup, or an established enterprise,
             our flexible office solutions cater to your evolving needs.
-          </div>
+          </p>
         </div>
 
-        <div>
-          <img src="http://placehold.it/100X100" alt="" />
+        <div class="second-row">
+          <img src="/images/vector/CreditCardIcon.png" alt="" />
 
           <div>Transparent Pricing</div>
 
-          <div>
+          <p>
             Choose a plan that suits your budget and business objectives, and
             experience the value of a premium coworking space without breaking
             the bank.
-          </div>
+          </p>
         </div>
 
-        <div>
-          <img src="http://placehold.it/100X100" alt="" />
+        <div class="third-row">
+          <img src="/images/vector/UserList.png" alt="" />
 
           <h1>Tailored Memberships</h1>
 
-          <div>
+          <p>
             Whether you prefer the flexibility of a hot desk or the exclusivity
             of a private office, Cowork offers tailored solutions to suit every
             working style.
-          </div>
+          </p>
         </div>
       </div>
     </section>
 
     <section id="explore-section">
-      <div class="explore-text">
+      <div class="chronicles-upper">
         <p class="subtitle">A Virtual Tour</p>
-        <div>Explore Cowork Through Our</div>
+        <div class="chronicles-title">
+          Explore Cowork Through Our
 
-        <div>
-          <img src="http://placehold.it/100X100" alt="hello" />
-          Lens
+          <img src="images/Rectangle/Rectangle 2.png" alt="" /> Lens
         </div>
 
-        <div>
+        <div class="chronicles-description">
           Experience the essence of Cowork before setting foot in our dynamic
           spaces. Our immersive video tour gives you a sneak peek into the
           vibrant atmosphere, cutting-edge facilities, and collaborative energy
           that define the Cowork experience.
         </div>
 
-        <button>Explore Spaces</button>
-
-        <img src="http://placehold.it/1312X700" alt="" />
+        <button class="explore-button">Explore Spaces</button>
       </div>
+      <img class="explore-img" src="/images/explore-image.png" alt="" />
     </section>
 
     <section id="stics-section">
@@ -323,20 +328,23 @@
     </section>
 
     <!-- join-section -->
-    <section class="join">
-      <div class="join-title">
-        Seize <img src="http://placehold.it/100X20" alt="" /> The Moment - Join
-        Cowork Today!
-      </div>
+    <section id="seize-section">
+      <div class="seize-upper">
+        <div class="seize-title">
+          Seize
+          <img src="images/Rectangle/Rectangle 3.png" alt="" />
 
-      <div class="join-description">
-        Uncover the transformative power of Cowork as echoed by those who've
-        made it their professional haven. This is more than finding a desk; it's
-        discovering a community that fuels your journey to success.
-      </div>
+          The Moment -
+        </div>
+        <div class="seize-title">Join Cowork Today!</div>
 
-      <!--join-botton-->
-      <button type="button" class="join-btn">Claim Your Spot</button>
+        <div class="seize-description">
+          Uncover the transformative power of Cowork as echoed by those who've
+          made it their professional haven. This is more than finding a desk;
+          it's discovering a community that fuels your journey to success.
+        </div>
+        <button>Claim Your Spot</button>
+      </div>
     </section>
     <!-- chronicles-section -->
     <section class="chronicles">
