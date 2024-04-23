@@ -81,6 +81,7 @@ a {
   border-radius: 42px;
   background: rgb(29, 30, 28);
 }
+
 /* navigation 작업 */
 
 /* main banner section */
@@ -298,6 +299,88 @@ a {
 }
 
 /* explore section */
+
+/* statis section */
+
+#stics-section {
+  padding: 112px 64px;
+}
+
+.stics-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.stics-left-content {
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.stics-left-content img {
+  border-radius: 48px;
+}
+
+.stics-first-content {
+  margin-bottom: 32px;
+}
+
+.stics-second-content {
+  display: flex;
+}
+
+.list-item h2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.stics-first-row {
+  margin-right: 160px;
+}
+
+.stics-subtitle {
+  color: rgb(29, 30, 28);
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 150%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.first-eclipse {
+  background-position: bottom;
+  background-image: url(/images/eclipse/Ellipse1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.second-eclipse {
+  background-position: bottom;
+  background-image: url(/images/eclipse/Ellipse2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.third-eclipse {
+  background-position: bottom;
+  background-image: url(/images/eclipse/Ellipse3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.fourth-eclipse {
+  background-position: bottom;
+  background-image: url(/images/eclipse/Ellipse4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 /* seize section */
 

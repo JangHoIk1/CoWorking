@@ -1,0 +1,66 @@
+/* nav mobile css */
+
+.mobile-cowork-button {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .top-logo {
+    width: 99.12px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+  .nav-items,
+  .nav-button {
+    display: none;
+  }
+
+  .top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .mobile-cowork-button {
+    display: flex;
+    gap: 40px;
+    width: 60px;
+    height: 45px;
+    border: 1px solid rgb(29, 30, 28);
+    border-radius: 42px;
+    background: rgb(29, 30, 28);
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* nav mobile css */
+
+/* mobile main-banner css */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    padding-top: 68px;
+    padding-bottom: 160px;
+    gap: 10px;
+  }
+  .first-content {
+    font-size: 48px;
+    text-align: center;
+  }
+  .second-content {
+    text-align: center;
+  }
+
+  .left-content {
+    text-align: center;
+  }
+  .main-img {
+    width: 350px;
+    height: 320px;
+  }
+}
+
+/* mobile main-banner css */
