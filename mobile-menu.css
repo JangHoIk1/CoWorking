@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+
+@media (max-width: 760px) {
+  .top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .mobile-cowork-button {
+    display: flex;
+    gap: 40px;
+    width: 20px;
+    height: 20px;
+    border-radius: 42px;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+  }
+}
